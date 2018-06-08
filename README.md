@@ -22,4 +22,4 @@ Please feel free to suggest improvements and/or report conflicts.
 
 ## Credits
 
-- Thanks to [Zac Gordon](https://profiles.wordpress.org/zgordon) for being a online great teacher.
+- Thanks to [Zac Gordon](https://github.com/zgordon) for his passion for WordPress.
