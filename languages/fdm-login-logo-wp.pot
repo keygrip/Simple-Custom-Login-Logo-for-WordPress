@@ -1,0 +1,36 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Login Logo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-07 23:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Description of the plugin
+msgid "Adds the ability to add your own logo on the login page."
+msgstr ""
+
+#. Name of the plugin
+msgid "Custom Login Logo"
+msgstr ""
+
+#. Author of the plugin
+msgid "Flying Donut Media"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://flyingdonutmedia.com"
+msgstr ""
+
+#: admin/setting-register.php:63 admin/settings-register.php:63
+msgid "Site Logo"
+msgstr ""
