@@ -1,9 +1,9 @@
-[![Latest Version](https://img.shields.io/github/release/keygrip/fdm-responsive-menu.svg)](https://github.com/keygrip/fdm-login-logo-wp/releases)
+[![Latest Version](https://img.shields.io/github/release/keygrip/fdm-login-logo-wp.svg)](https://github.com/keygrip/fdm-login-logo-wp/releases)
 [![GitHub License](https://img.shields.io/badge/license-GPLv3-yellow.svg)](https://raw.githubusercontent.com/keygrip/fdm-responsive-menu/master/license.txt)
 
 # Simple Custom Login Logo WordPress Plugin
 
-Adds the ability to add your own logo on the login page.
+Another plugin that adds the ability to add your own logo on the login page.
 
 ## Installation
 
