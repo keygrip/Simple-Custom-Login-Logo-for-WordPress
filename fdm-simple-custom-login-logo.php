@@ -4,7 +4,7 @@
 Plugin Name: Simple Custom Login Logo
 Plugin URI:   https://flyingdonutmedia.com
 Description: Adds the ability to add your own logo on the login page.
-Version: 1.0.0
+Version: 1.0.1
 Author: Flying Donut Media
 Author URI: https://flyingdonutmedia.com
 License: GPL-3.0
@@ -49,13 +49,13 @@ if ( is_admin() ){
 require_once plugin_dir_path( __FILE__ ) . 'includes/core-functions.php';
 
 // Add settings link to plugin on plugins page
-function add_action_links ( $links ) {
+function fdm_login_logo_add_settings_link ( $links ) {
 	$settingsLink = array(
 		'<a href="' . admin_url( 'themes.php?page=fdm-login-logo' ) . '">Settings</a>',
 	);
 	return array_merge( $links, $settingsLink );
 }
-add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), 'add_action_links' );
+add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), 'fdm_login_logo_add_settings_link' );
 
 // default plugin options
 function fdm_login_logo_options_default() {
