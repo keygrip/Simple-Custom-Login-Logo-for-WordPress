@@ -4,7 +4,7 @@
 Plugin Name: Simple Custom Login Logo
 Plugin URI:   https://flyingdonutmedia.com
 Description: Adds the ability to add your own logo on the login page.
-Version: 1.0.1
+Version: 1.0.2
 Author: Flying Donut Media
 Author URI: https://flyingdonutmedia.com
 License: GPL-3.0

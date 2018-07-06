@@ -25,7 +25,7 @@ function fdm_login_logo_settings_page() {
 
 				settings_fields( 'fdm_login_logo_options' );
 				do_settings_sections( 'fdm-login-logo' );
-
+			    settings_errors();
 
 			// submit button
 			submit_button();
@@ -37,11 +37,3 @@ function fdm_login_logo_settings_page() {
 	<?php
 
 }
-
-// display default admin notice
-function fdm_login_logo_add_settings_errors() {
-
-	settings_errors();
-
-}
-add_action('admin_notices', 'fdm_login_logo_add_settings_errors');
